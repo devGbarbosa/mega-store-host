@@ -21,7 +21,7 @@ const getConfig = async () => {
   const zephyrConfig = await withZephyr()({
     name: 'megaStoreHost',
     remotes: {
-      miniApp: 'megaStoreHost@http://localhost:8082/mf-manifest.json',
+      megaStoreCart: 'megaStoreHost@http://localhost:8082/mf-manifest.json',
     },
     shared: {
       react: {
